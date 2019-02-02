@@ -34,15 +34,14 @@ Optionally you can pass third parameter option as object.
 Options:
 * share: Option is used to hide and show the share option.
 * closeBtn: Option for close button visibility when share false [ONLY FOR iOS]
-* copyToReference: If you need to copy image to reference before show then set it true [ONLY FOR iOS]
+
 
 ##### Usage
 
 ```
 var options = {
     share: true, // default is false
-    closeButton: false, // default is true
-    copyToReference: true // default is false
+    closeButton: false // default is true
 };
 
 ImageViewer.show('http://any_site.com/any_image.png', 'Some Title', options);
