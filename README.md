@@ -11,7 +11,7 @@ cordova plugin add com-poolgazal-imageviewer
 Ionic 4:
 ```bash
 $ ionic cordova plugin add com-poolgazal-imageviewer
-$ npm install --save @ionic-native/image-viewer/ngx
+$ npm install --save ionic-native-image-viewer
 ```
 
 ### Android
@@ -23,10 +23,10 @@ $ npm install --save @ionic-native/image-viewer/ngx
 
 ### API
 
-#### Show an image
+#### Show an image "ionic local server uri"
 
 ```
-ImageViewer.show('http://any_site.com/any_image.png', 'Some Title');
+ImageViewer.show('http://localhost:8080/assets/any_image.png', 'Some Title');
 ```
 
 Optionally you can pass third parameter option as object.
