@@ -1,11 +1,11 @@
-/********* PhotoViewer.m Cordova Plugin Implementation *******/
+/********* ImageViewer.m Cordova Plugin Implementation *******/
 
 #import <Cordova/CDV.h>
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <MobileCoreServices/MobileCoreServices.h>
 
-@interface PhotoViewer : CDVPlugin <UIDocumentInteractionControllerDelegate, UIScrollViewDelegate> {
+@interface ImageViewer : CDVPlugin <UIDocumentInteractionControllerDelegate, UIScrollViewDelegate> {
     // Member variables go here.
     Boolean isOpen;
     UIScrollView *fullView;
@@ -25,7 +25,7 @@
 
 
 
-@implementation PhotoViewer
+@implementation ImageViewer
 
 - (void)setupDocumentControllerWithURL:(NSURL *)url andTitle:(NSString *)title
 {
