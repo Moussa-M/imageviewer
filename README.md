@@ -17,9 +17,6 @@ $ npm install --save ionic-native-image-viewer
 ### Android
 > Out of the box
 
-### iOS
-> Out of the box
-
 
 ### API
 
@@ -28,15 +25,48 @@ $ npm install --save ionic-native-image-viewer
 ```
 ImageViewer.show('http://localhost:8080/assets/any_image.png', 'Some Title');
 ```
+##### Usage
+```
+...
+import { ImageViewer } from 'ionic-native-image-viewer/ngx'
+...
+@NgModule({
+  imports: [
+    CommonModule,
+    FormsModule,
+    IonicModule,
+  ],
+  providers:[ImageViewer,],//here
+  declarations: [PagePage]
+})
+export class MyModuleModule {}
+
+
+```
+Inject it in your component like so 
+```
+....
+import { ImageViewer } from 'ionic-native-image-viewer/ngx'
+....
+constructor(private imageViewer:ImageViewer){
+
+}
+ngOnInit() {
+//handling all images click event
+$('body').on('click', 'img',(event)=>{
+        this.imageViewer.show(event.target.src);
+})
+
+}
+```
+
 
 Optionally you can pass third parameter option as object.
 
 Options:
 * share: Option is used to hide and show the share option.
-* closeBtn: Option for close button visibility when share false [ONLY FOR iOS]
+* closeButton: Option for close button visibility when is set to false 
 
-
-##### Usage
 
 ```
 var options = {
