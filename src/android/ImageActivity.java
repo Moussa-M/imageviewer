@@ -1,4 +1,4 @@
-package com.poolgazal.imageviewer;
+package com.pg.imageviewer;
 
 import android.app.Activity;
 import android.content.Context;

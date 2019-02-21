@@ -1,4 +1,4 @@
-package com.poolgazal.imageviewer;
+package com.pg.imageviewer;
 
 import android.Manifest;
 import android.app.ActivityOptions;
@@ -14,14 +14,8 @@ import org.apache.cordova.PluginResult;
 import org.json.JSONArray;
 import org.json.JSONException;
 
-import io.maghrebpipe.app.R;
 
-/**
- * Class to Open ImageViewer with the Required Parameters from Cordova
- * <p>
- * - URL
- * - Title
- */
+
 public class ImageViewer extends CordovaPlugin {
 
     public static final int PERMISSION_DENIED_ERROR = 20;

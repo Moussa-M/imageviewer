@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/black"
-    tools:context="com.poolgazal.imageviewer.ImageActivity">
+    tools:context="com.pg.imageviewer.ImageActivity">
 
     <ProgressBar
         android:id="@+id/loadingBar"

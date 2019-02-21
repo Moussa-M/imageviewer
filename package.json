@@ -1,16 +1,16 @@
 {
-  "name": "com-poolgazal-imageviewer",
-  "version": "1.0.1",
-  "description": "This plugin is intended to show a picture from an URL into a Image Viewer with zoom features.",
+  "name": "com-moussam-imageviewer",
+  "version": "1.1.0",
+  "description": "This plugin is used to show a images from an  URL into a image Viewer with zoom features for ionic 4.",
   "cordova": {
-    "id": "com-poolgazal-imageviewer",
+    "id": "com-moussam-imageviewer",
     "platforms": [
       "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/poolgazal/imageviewer"
+    "url": "https://github.com/moussa-m/imageviewer"
   },
   "keywords": [
     "cordova",
