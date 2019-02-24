@@ -1,6 +1,10 @@
 # Image Viewer  
 > This plugin is used to show a images from an  URL into a image Viewer with zoom features for ionic 4.
 
+<p align="center">
+  <img src="/demo/demo.gif"/>
+<p>
+
 ## How to Install
 
 ```bash
